@@ -1,0 +1,16 @@
+.timeline-item {
+  /* ... existing styles ... */
+  color: rgba(255, 255, 255, 0.9); /* Brighter text color */
+}
+
+/* If you have specific text elements within the timeline item */
+.timeline-item h3,
+.timeline-item p {
+  color: rgba(255, 255, 255, 0.9); /* Brighter text color */
+}
+
+/* For any secondary text that you want slightly dimmer */
+.timeline-item .date,
+.timeline-item .subtitle {
+  color: rgba(255, 255, 255, 0.8); /* Slightly dimmer but still bright */
+} 
